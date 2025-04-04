@@ -50,6 +50,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+/***/ "./src/VERSION.txt":
+/*!*************************!*\
+  !*** ./src/VERSION.txt ***!
+  \*************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (\"beta-0.7.0-dev \\r\\n\");\n\n//# sourceURL=webpack:///./src/VERSION.txt?");
+
+/***/ }),
+
 /***/ "./node_modules/split.js/dist/split.es.js":
 /*!************************************************!*\
   !*** ./node_modules/split.js/dist/split.es.js ***!
@@ -576,7 +586,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   displayVersion: () => (/* binding */ displayVersion)\n/* harmony export */ });\nObject(function webpackMissingModule() { var e = new Error(\"Cannot find module '../VERSION.txt'\"); e.code = 'MODULE_NOT_FOUND'; throw e; }());\n\r\nconst versionEl = document.querySelector(\".footer-content .version\")\r\n\r\n\r\nfunction displayVersion(){\r\n    console.log(Object(function webpackMissingModule() { var e = new Error(\"Cannot find module '../VERSION.txt'\"); e.code = 'MODULE_NOT_FOUND'; throw e; }()))\r\n    versionEl.innerHTML = Object(function webpackMissingModule() { var e = new Error(\"Cannot find module '../VERSION.txt'\"); e.code = 'MODULE_NOT_FOUND'; throw e; }());\r\n}\r\n\r\n\n\n//# sourceURL=webpack:///./src/index/version.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   displayVersion: () => (/* binding */ displayVersion)\n/* harmony export */ });\n/* harmony import */ var _VERSION_txt__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../VERSION.txt */ \"./src/VERSION.txt\");\n\r\nconst versionEl = document.querySelector(\".footer-content .version\")\r\n\r\n\r\nfunction displayVersion(){\r\n    console.log(_VERSION_txt__WEBPACK_IMPORTED_MODULE_0__[\"default\"])\r\n    versionEl.innerHTML = _VERSION_txt__WEBPACK_IMPORTED_MODULE_0__[\"default\"];\r\n}\r\n\r\n\n\n//# sourceURL=webpack:///./src/index/version.js?");
 
 /***/ }),
 
